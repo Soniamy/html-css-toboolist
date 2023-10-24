@@ -53,4 +53,40 @@ h1{
     color:lightgrey;
     border-color: lightgrey;
 }
+ul,ol{
+    padding-left: 18px;
+    list-style: none;
+}
+li{
+    margin-bottom: 10px;
+}
+.check{
+    border: 2px solid rgb(13, 192, 115);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: rgb(13, 192, 115);
+}
+.done{
+    border: 2px solid rgb(13, 192, 115);
+    color: rgb(13, 192, 115);
+}
+.not-done{
+    border: 2px solid red;
+    color: red;
+}
+.editorial{
+    border-radius: 15px;
+    padding: 7px;
+    font-size: 10px;
+    height: 25px;
+    width: 40px;
+    text-align: center;
+    line-height: 9%;
+    background-color:rgba(64, 181, 249, 0.884);
+    color: white;
+}
 
