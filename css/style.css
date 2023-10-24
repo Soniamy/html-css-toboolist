@@ -2,4 +2,55 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+body{
+    background-color: rgb(234, 234, 234);
+}
+h1{
+    display: inline-block;
+}
+.logo{
+    background-color: white;
+    padding: 5px 10;
+    margin-bottom: 50px;
+}
+.logo h1, .logo img{
+    vertical-align: middle;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.list-container-1{
+    background-color: white;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-bottom: 2px;
+}
+.list-container-2{
+    background-color: white;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.button #task , #section{
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 11px;
+    height: 25px;
+    text-align: center;
+    line-height: 9%;
+}
+#task{
+   background-color:rgba(64, 181, 249, 0.884);
+   color: white;
+   border: 0;
+}
+#section{
+    background-color:white;
+    color:lightgrey;
+    border-color: lightgrey;
+}
+
