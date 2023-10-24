@@ -24,7 +24,7 @@ h1{
 }
 .list-container-1{
     background-color: white;
-    padding: 10px;
+    padding: 15px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     margin-bottom: 2px;
@@ -53,22 +53,30 @@ h1{
     color:lightgrey;
     border-color: lightgrey;
 }
-ul,ol{
+.main-list{
     padding-left: 18px;
+    margin: 15px;
+}
+ul{
     list-style: none;
 }
+.main-list ul{
+    margin: 10px 0;
+}
+
 li{
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    
 }
 .check{
-    border: 2px solid rgb(13, 192, 115);
+    border: 2px solid grey;
     display: inline-block;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
-    color: rgb(13, 192, 115);
+    color: grey;
 }
 .done{
     border: 2px solid rgb(13, 192, 115);
@@ -78,7 +86,7 @@ li{
     border: 2px solid red;
     color: red;
 }
-.editorial{
+.tag{
     border-radius: 15px;
     padding: 7px;
     font-size: 10px;
@@ -86,7 +94,25 @@ li{
     width: 40px;
     text-align: center;
     line-height: 9%;
-    background-color:rgba(64, 181, 249, 0.884);
+    background-color:grey;
     color: white;
 }
+.blue{
+    background-color:rgba(64, 181, 249, 0.884);
+}
+.purple{
+    background-color: rgb(151, 88, 180);
+}
 
+.green{
+    background-color:rgb(13, 192, 115) ;
+}
+.orange{
+    background-color: rgb(238, 151, 36);
+}
+.pink{
+    background-color: rgb(230, 110, 230);
+}
+.yellow{
+    background-color: yellowgreen;
+}
